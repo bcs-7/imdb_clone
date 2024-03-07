@@ -1,0 +1,51 @@
+.poster{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-color: black;
+    
+  
+}
+.image{
+    overflow: hidden;
+    height: 600px;
+    background-color: black;
+    
+   
+}
+.idk{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    box-shadow: 0px 150px 1000px black inset;
+    transform: rotate(180deg)
+}
+.overlay{
+    position:absolute;
+    color: white;
+    top: 45%;
+    text-align: left;
+    margin-left: 50px;
+    
+
+}
+.totn{
+    display: flex;
+}
+.moviename{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.rating{
+    margin-left: 15px;
+}
+.rating i{
+    color: yellow;
+}
+.overview{
+    width: 700px;
+    margin-top: 20px;
+}

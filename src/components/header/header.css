@@ -1,0 +1,25 @@
+.Logo{
+    margin: 10px;
+}
+.header_name a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.Header_tots{
+margin-top: 19px;   
+    
+}
+.header_name{
+    display: flex;
+}
+span{
+    margin-left: 50px;
+}
+span:hover{
+    color: red;
+}
+.header{
+    z-index: 99;
+    position: relative;
+}
